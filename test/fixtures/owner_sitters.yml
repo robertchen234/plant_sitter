@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner_id: 1
+  sitter_id: 1
+  owner: one
+  sitter: one
+
+two:
+  owner_id: 1
+  sitter_id: 1
+  owner: two
+  sitter: two

@@ -1,0 +1,8 @@
+<h2>Here are all your sitters</h2>
+<ul>
+  <% @sitters.each do |sitter| %>
+    <li><%= link_to sitter.name, sitter %></li>
+  <% end %>
+</ul>
+
+<%= button_to "Sign Up", new_sitter_path, method: :get %>

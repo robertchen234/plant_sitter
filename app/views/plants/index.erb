@@ -1,0 +1,7 @@
+<h2>Look at all these BEAUTIFUL plants</h2>
+
+<ul>
+  <% @plants.each do |plant| %>
+  <li><%= link_to plant.species, plant %></li>
+  <% end %>
+</ul>
